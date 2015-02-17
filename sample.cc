@@ -1,6 +1,7 @@
 // Examples using Burg’s approximation algorithm
 
 #include <math.h>
+#include <stdio.h>
 #include "burg.hpp"
 
 #define TEST_SEQUENCE( expr ) do { \

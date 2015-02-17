@@ -2,6 +2,7 @@
 // - rlyeh. boost licensed.
 
 #pragma once
+#include <stddef.h>
 #include <vector>
 
 namespace burg {
