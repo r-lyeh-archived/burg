@@ -1,4 +1,5 @@
-# burg
+burg <a href="https://travis-ci.org/r-lyeh/burg"><img src="https://api.travis-ci.org/r-lyeh/burg.svg?branch=master" align="right" /></a>
+====
 
 - Burg is a simple linear predictor (C++11).
 - Burg is tiny. Header-only.
