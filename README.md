@@ -3,13 +3,13 @@ burg <a href="https://travis-ci.org/r-lyeh/burg"><img src="https://api.travis-ci
 
 - Burg is a simple linear predictor (C++11).
 - Burg is tiny. Header-only.
-- Burg is BOOST licensed.
+- Burg is zlib/libpng licensed.
 
 ## API
 ```c++
 ns burg {
 template<typename T>
-void expand( std::vector<T> &values, unsigned new_values, unsigned quality=8 /*[4..11]*/ ); 
+void expand( std::vector<T> &values, unsigned new_values, unsigned quality=8 /*[4..11]*/ );
 }
 ```
 

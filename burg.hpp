@@ -1,5 +1,5 @@
 // Burg linear predictor. Original code by Cedrick Collomb.
-// - rlyeh. boost licensed.
+// - rlyeh, zlib/libpng licensed.
 
 #pragma once
 #include <stddef.h>
@@ -72,7 +72,7 @@ namespace burg {
                 for( size_t j = 0; j < m; j++ ) {
                     original[ i ] = original[ i ] + original[ i - 1 - j ] * coeffs[ j ];
                 }
-            } 
+            }
         }
     }
 }
