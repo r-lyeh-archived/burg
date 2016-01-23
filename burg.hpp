@@ -6,7 +6,7 @@
 #include <vector>
 
 namespace burg {
-    template<typename T>
+    template<typename T> // N: number of new items. Quality: accuracy of the computation (4 the lower, 11 the higher)
     void expand( std::vector<T> &original, unsigned N, const unsigned quality = 8 /*[4..11]*/ ) {
         if( N ) {
             const auto zero = T();
